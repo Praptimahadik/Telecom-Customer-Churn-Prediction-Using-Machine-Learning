@@ -16,6 +16,13 @@ Telecom companies lose revenue when customers discontinue their services. Identi
 - Increase customer lifetime value
 - Optimize marketing and loyalty campaigns
 
+## Data Collection and Dataset Source
+The dataset used in this project was collected from a SQL database, making the project more industry-oriented and aligned with real-world telecom data management systems. Telecom companies generally store customer information, billing records, service usage details, and customer activity data in relational databases. Therefore, retrieving the dataset directly from a SQL database helped simulate a real business environment.
+
+The database used for this project was named project_telecom, and the data was extracted from the table telecom_churn_data. The SQL database contained structured telecom customer information including demographic details, communication behavior, and service usage patterns.
+
+After connecting to the SQL database, the dataset was imported into Python for further preprocessing, analysis, visualization, and machine learning model development. The extracted data was then converted into a pandas DataFrame to perform operations such as cleaning, feature engineering, exploratory data analysis, and predictive modeling.
+
 ## Dataset Information
 
 The dataset contains customer demographic information, telecom usage patterns, and churn status.
