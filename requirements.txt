@@ -5,4 +5,4 @@ seaborn
 scikit-learn
 xgboost
 imbalanced-learn
-jupyter notebook
+jupyter
